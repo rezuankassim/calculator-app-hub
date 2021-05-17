@@ -1,16 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer base {
+  @font-face {
+    font-family: "Spartan";
+    font-weight: 700;
+    src: url(/fonts/Spartan/static/Spartan-Bold.woff) format("woff");
+  }
 
-* {
-  box-sizing: border-box;
+  :root {
+    --color-bg-primary: #3a4663;
+    --color-bg-secondary: #242d44;
+    --color-bg-darker: #181f33;
+
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #434a59;
+
+    --color-button-primary: #eae3dc;
+    --color-button-secondary: #647198;
+    --color-button-tertiary: #d03f2f;
+
+    --color-button-primary-shadow: #b3a497;
+    --color-button-secondary-shadow: #414e73;
+    --color-button-tertiary-shadow: #93261a;
+  }
 }
