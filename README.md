@@ -1,34 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Calculator app solution
 
-## Getting Started
+This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### The challenge
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Users should be able to:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- See the size of the elements adjust based on their device's screen size
+- Perform mathmatical operations like addition, subtraction, multiplication, and division
+- Adjust the color theme based on their preference
+- **Bonus**: Have their initial theme preference checked using `prefers-color-scheme` and have any additional changes saved in the browser
 
-## Learn More
+### Screenshot
 
-To learn more about Next.js, take a look at the following resources:
+![](./public/screenshot.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Live Site URL: [Vercel](https://calculator-app-hub.vercel.app)
 
-## Deploy on Vercel
+## My process
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Built with
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [TailwindCSS](https://tailwindcss.com) - For CSS
+- [HeadlessUI](https://headlessui.dev) - For Headless UI Components
+
+### What I learned
+
+I have learned how to switching themes and creating a working calculator following iOS calculator app. Even though it is easy when first thought about calculator but if deep deeper there is a lot of hidden logic that is not known.
+
+There is some codes in here that I am proud of because it is my first time and I am managed to done it.
+
+Lists:
+
+- `./components/MultipleToggleSwitch.tsx` (Three way toggle)
+- `./styles/globals.css` & `./tailwind.config.js` (Theme switching)
+
+### Continued development
+
+I would like to seperate more repetitive file into more smaller parts and tried out to call API because in this project there is no API to be called.
+
+### Useful resources
+
+- [Tailwind Theme Switcher](https://github.com/huphtur/tailwind-theme-switcher) - I am not experienced with theme switching before this but with this example I managed to figure out the way by looking through the source code.
+
+## Author
+
+- Frontend Mentor - [@rezuankassim](https://www.frontendmentor.io/profile/rezuankassim)
+- Twitter - [@KassimRezuan](https://twitter.com/KassimRezuan)
+- LinkedIn - [rezuan-kassim](https://www.linkedin.com/in/rezuan-kassim/)
