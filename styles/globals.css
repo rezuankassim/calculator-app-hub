@@ -9,20 +9,69 @@
     src: url(/fonts/Spartan/static/Spartan-Bold.woff) format("woff");
   }
 
-  :root {
+  .theme-one {
     --color-bg-primary: #3a4663;
     --color-bg-secondary: #242d44;
     --color-bg-darker: #181f33;
 
     --color-text-primary: #ffffff;
     --color-text-secondary: #434a59;
+    --color-text-button-secondary: #ffffff;
+    --color-text-button-tertiary: #ffffff;
 
     --color-button-primary: #eae3dc;
+    --color-button-primary-hover: #fffffe;
     --color-button-secondary: #647198;
+    --color-button-secondary-hover: #a2b2e1;
     --color-button-tertiary: #d03f2f;
+    --color-button-tertiary-hover: #f96b5b;
 
     --color-button-primary-shadow: #b3a497;
     --color-button-secondary-shadow: #414e73;
     --color-button-tertiary-shadow: #93261a;
+  }
+
+  .theme-two {
+    --color-bg-primary: #e6e6e6;
+    --color-bg-secondary: #d2cdcd;
+    --color-bg-darker: #eeeeee;
+
+    --color-text-primary: #36362c;
+    --color-text-secondary: #36362c;
+    --color-text-button-secondary: #ffffff;
+    --color-text-button-tertiary: #ffffff;
+
+    --color-button-primary: #e5e4e1;
+    --color-button-primary-hover: #ffffff;
+    --color-button-secondary: #378187;
+    --color-button-secondary-hover: #62b5bc;
+    --color-button-tertiary: #c85402;
+    --color-button-tertiary-hover: #ff8a38;
+
+    --color-button-primary-shadow: #a79e91;
+    --color-button-secondary-shadow: #1b6066;
+    --color-button-tertiary-shadow: #873901;
+  }
+
+  .theme-three {
+    --color-bg-primary: #17062a;
+    --color-bg-secondary: #1e0936;
+    --color-bg-darker: #1e0936;
+
+    --color-text-primary: #ffe53d;
+    --color-text-secondary: #ffe53d;
+    --color-text-button-secondary: #ffffff;
+    --color-text-button-tertiary: #1a2327;
+
+    --color-button-primary: #331c4d;
+    --color-button-primary-hover: #6c34ac;
+    --color-button-secondary: #56077c;
+    --color-button-secondary-hover: #8631af;
+    --color-button-tertiary: #00ded0;
+    --color-button-tertiary-hover: #93fff8;
+
+    --color-button-primary-shadow: #881c9e;
+    --color-button-secondary-shadow: #be15f4;
+    --color-button-tertiary-shadow: #6cf9f1;
   }
 }
